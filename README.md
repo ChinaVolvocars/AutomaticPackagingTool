@@ -34,7 +34,6 @@ java -jar CheckAndroidV2Signature.jar destination.apk
 ```
 {"ret":0,"msg":"ok","isV2":true,"isV2OK":true} 是 V2 签名的App
 {"ret":0,"msg":"ok","isV2":false,"isV2OK":false} 不是 V2 签名的App
-
 ```
 
 #### **5.** 写入渠道包信息:
@@ -46,7 +45,6 @@ java -jar [刚下载walle-cli-all.jar的路径] batch -f [项目里channel的路
 
 ```
 String channel = WalleChannelReader.getChannel(context);
-
 ```
 
 
