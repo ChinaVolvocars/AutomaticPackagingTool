@@ -10,7 +10,7 @@ import datetime
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 # D:/DevelopmentTools/Android/SDK/build-tools/28.0.0/                                                       
 android_build_tools_path = 'D:/DevelopmentTools/Android/SDK/build-tools/28.0.0/'
-target_file_name = 'AP'
+target_file_name = 'Auto'
 keystore_password = "123456"
 key_alias = "AutomaticPackaging"
 key_password = "123456"
