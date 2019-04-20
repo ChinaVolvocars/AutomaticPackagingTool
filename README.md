@@ -2,7 +2,7 @@
 Android 自动打渠道包工具
 
 
-### 打包操作流程
+### 手动打包操作流程
 
 
 ##### **1.** 对齐:
@@ -70,6 +70,8 @@ dependencies {
 ```java
 String channel = WalleChannelReader.getChannel(this.getApplicationContext());
 ```
+
+### 自动化打包操作流程
 
 #### **1.** 将项目中的 jks 文件、channel 文件（如果没有请新建一个）、打包好的 apk 文件拷贝到 apk 目录里面
 #### **2.** 配置信息
