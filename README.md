@@ -71,10 +71,10 @@ dependencies {
 String channel = WalleChannelReader.getChannel(this.getApplicationContext());
 ```
 ##### **2.** 打一个签名的apk
-<img src="" width="500px" height="680px">
+<img src="https://github.com/ChinaVolvocars/AutomaticPackagingTool/blob/master/img/build_apk.png">
 
 ##### **3.** 将项目中的 jks 文件、channel 文件（如果没有请新建一个）、打包好的 apk 文件拷贝到 apk 目录里面
-<img src="" width="500px" height="680px">
+<img src="https://github.com/ChinaVolvocars/AutomaticPackagingTool/blob/master/img/copy_file.png">
 
 #### **4.** 在 python 中配置信息
 ```python
@@ -91,5 +91,5 @@ key_password = "123456"
 ```
 
 #### **4.** 在 include 文件夹中 run 一下就开始批量打包了
-<img src="" width="500px" height="680px">
+<img src="https://github.com/ChinaVolvocars/AutomaticPackagingTool/blob/master/img/run.png">
 
