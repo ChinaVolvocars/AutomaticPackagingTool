@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c7227280-7b1a-4a6a-9ab3-828a96c9e871" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/img/build_apk.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/copy_file.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/img/run.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Include/AutomaticPackaging.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Include/AutomaticPackaging.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/apk/channel" beforeDir="false" afterPath="$PROJECT_DIR$/venv/apk/channel" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,8 +28,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="76" column="23" selection-start-line="76" selection-start-column="23" selection-end-line="76" selection-end-column="23" />
+            <state relative-caret-position="220">
+              <caret line="49" column="70" lean-forward="true" selection-start-line="49" selection-start-column="70" selection-end-line="49" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -101,6 +96,17 @@
             <path>
               <item name="AutomaticPackagingTool" type="b2602c69:ProjectViewProjectNode" />
               <item name="AutomaticPackagingTool" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutomaticPackagingTool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomaticPackagingTool" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AutomaticPackagingTool" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AutomaticPackagingTool" type="462c0819:PsiDirectoryNode" />
+              <item name="venv" type="462c0819:PsiDirectoryNode" />
+              <item name="apk" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -182,7 +188,7 @@
       <workItem from="1555642226036" duration="58000" />
       <workItem from="1555642326785" duration="24386000" />
       <workItem from="1555746849379" duration="2682000" />
-      <workItem from="1555749595206" duration="11394000" />
+      <workItem from="1555749595206" duration="12425000" />
     </task>
     <task id="LOCAL-00001" summary="打包操作流程">
       <created>1555640326352</created>
@@ -247,17 +253,31 @@
       <option name="project" value="LOCAL" />
       <updated>1555767451164</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="使用指南">
+      <created>1555772020698</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1555772020698</updated>
+    </task>
+    <task id="LOCAL-00011" summary="使用指南">
+      <created>1555773059772</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1555773059772</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="39693000" />
+    <option name="totallyTimeSpent" value="40724000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1380597" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1380597" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -268,7 +288,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.26169264" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.033407573" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.2271715" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -500,8 +520,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="76" column="23" selection-start-line="76" selection-start-column="23" selection-end-line="76" selection-end-column="23" />
+        <state relative-caret-position="220">
+          <caret line="49" column="70" lean-forward="true" selection-start-line="49" selection-start-column="70" selection-end-line="49" selection-end-column="70" />
         </state>
       </provider>
     </entry>

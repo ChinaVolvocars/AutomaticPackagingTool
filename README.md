@@ -47,6 +47,8 @@ key_password = "123456"
 #### **5.** 在 include 文件夹中 run 一下就开始批量打包了
 <img src="https://github.com/ChinaVolvocars/AutomaticPackagingTool/blob/master/img/run.png">
 
+[Android source](https://github.com/ChinaVolvocars/AutomaticPackaging/)
+
 ### 手动打包操作流程
 
 
@@ -93,4 +95,4 @@ String channel = WalleChannelReader.getChannel(context);
 ```
 
 
-[Android source](https://github.com/ChinaVolvocars/AutomaticPackaging)
+
