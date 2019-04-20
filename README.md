@@ -97,7 +97,7 @@ String channel = WalleChannelReader.getChannel(context);
 
 The MIT License (MIT)
 
-Copyright (c) 2015-2019 The Fastlane Authors
+Copyright (c) 2015-2019 The ChinaVolvocars Authors
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
