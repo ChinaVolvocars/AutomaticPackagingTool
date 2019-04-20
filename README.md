@@ -1,5 +1,6 @@
 # AutomaticPackagingTool
 Android 自动打渠道包工具，使用 python 3.7
+**使用之前必须安装并配置相关环境（Java、Android、Python）**
 
 ### 自动化打包操作流程
 #### **1.** 在 Android 项目的根目录 build.gradle 文件中添加 Walle Gradle 插件的依赖， 如下：
