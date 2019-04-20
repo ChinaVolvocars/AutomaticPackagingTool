@@ -93,3 +93,5 @@ key_password = "123456"
 #### **4.** 在 include 文件夹中 run 一下就开始批量打包了
 <img src="" width="500px" height="680px">
 
+
+[Android source](https://github.com/ChinaVolvocars/AutomaticPackaging)
