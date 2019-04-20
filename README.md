@@ -31,7 +31,7 @@ Mac: apksigner sign --ks [你的签名文件] [apk路径]
 java -jar CheckAndroidV2Signature.jar destination.apk
 ```
 
-```
+```json
 {"ret":0,"msg":"ok","isV2":true,"isV2OK":true} 是 V2 签名的App
 {"ret":0,"msg":"ok","isV2":false,"isV2OK":false} 不是 V2 签名的App
 ```
@@ -43,12 +43,12 @@ java -jar [刚下载walle-cli-all.jar的路径] batch -f [项目里channel的路
 
 #### **6.** 获取渠道信息
 
-```
+```java
 String channel = WalleChannelReader.getChannel(context);
 ```
 
 ### 自动化打包操作流程
-##### **1.** 在 Android 项目的根目录 build.gradle 文件中添加 Walle Gradle 插件的依赖， 如下：
+#### **1.** 在 Android 项目的根目录 build.gradle 文件中添加 Walle Gradle 插件的依赖， 如下：
 ```gradle
 buildscript {
     dependencies {
@@ -70,10 +70,10 @@ dependencies {
 ```java
 String channel = WalleChannelReader.getChannel(this.getApplicationContext());
 ```
-##### **2.** 打一个签名的apk
+#### **2.** 打一个签名的apk
 <img src="https://github.com/ChinaVolvocars/AutomaticPackagingTool/blob/master/img/build_apk.png">
 
-##### **3.** 将项目中的 jks 文件、channel 文件（如果没有请新建一个）、打包好的 apk 文件拷贝到 apk 目录里面
+#### **3.** 将项目中的 jks 文件、channel 文件（如果没有请新建一个）、打包好的 apk 文件拷贝到 apk 目录里面
 <img src="https://github.com/ChinaVolvocars/AutomaticPackagingTool/blob/master/img/copy_file.png">
 
 #### **4.** 在 python 中配置信息
@@ -90,6 +90,6 @@ key_alias = "AutomaticPackaging"
 key_password = "123456"
 ```
 
-#### **4.** 在 include 文件夹中 run 一下就开始批量打包了
+#### **5.** 在 include 文件夹中 run 一下就开始批量打包了
 <img src="https://github.com/ChinaVolvocars/AutomaticPackagingTool/blob/master/img/run.png">
 
