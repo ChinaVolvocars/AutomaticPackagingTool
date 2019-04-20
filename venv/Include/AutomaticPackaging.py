@@ -5,6 +5,7 @@ import os
 import platform
 import sys
 import shutil
+import datetime
 
 # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
 # D:/DevelopmentTools/Android/SDK/build-tools/28.0.0/                                                       
@@ -143,7 +144,12 @@ def auto_write_channel():
     else:
         shutil.rmtree(out_put_apk_path())
         batch_write_channel()
+    print('渠道包写入完毕')
 
 
 if __name__ == '__main__':
+    starttime = datetime.datetime.now()
     auto_write_channel()
+    endtime = datetime.datetime.now()
+    time = endtime - starttime
+    print('时间消耗：%s' % (time.seconds.__str__()))
